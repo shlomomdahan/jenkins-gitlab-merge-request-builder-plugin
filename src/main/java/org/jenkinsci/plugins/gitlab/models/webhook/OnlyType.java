@@ -10,6 +10,10 @@ import com.google.gson.JsonSyntaxException;
 public class OnlyType {
     public String object_kind;
 
+    public String getObject_kind() {
+        return object_kind;
+    }
+
     public static OnlyType fromJson(String jsonString) throws JsonSyntaxException {
         Gson g = new GsonBuilder().setPrettyPrinting().create();
         return g.fromJson(jsonString, OnlyType.class);

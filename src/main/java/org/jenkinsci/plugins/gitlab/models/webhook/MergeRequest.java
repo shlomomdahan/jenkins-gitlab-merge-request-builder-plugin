@@ -3,7 +3,6 @@ package org.jenkinsci.plugins.gitlab.models.webhook;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonSyntaxException;
-import jnr.ffi.annotations.In;
 
 /**
  * Created by lordx_000 on 11/14/2015.
